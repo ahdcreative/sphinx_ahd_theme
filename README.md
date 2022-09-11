@@ -6,8 +6,8 @@ Sphinx AHD theme contains all files required to build a Sphinx extension that pr
 
 -   [MIT license](https://github.com/ahcreative/sphinx_ahd_theme/blob/main/LICENSE)
 -   [Repository](https://github.com/ahdcreative/sphinx_ahd_theme)
--   [Security](https://github.com/wagtail/sphinx_wagtail_theme/blob/main/SECURITY.md)
--   [Changelog](https://github.com/wagtail/sphinx_wagtail_theme/blob/main/CHANGELOG.md)
+-   [Security](https://github.com/ahdcreative/sphinx_ahd_theme/blob/main/SECURITY.md)
+-   [Changelog](https://github.com/ahdcreative/sphinx_ahd_theme/blob/main/CHANGELOG.md)
 -   Supports Python > 3.7
 
 ## Installation
