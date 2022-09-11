@@ -1,0 +1,15 @@
+# Install package into itself.
+-e .
+
+# Development tooling
+build
+docutils
+flake8
+percy-selenium
+pip
+pytest
+selenium
+setuptools
+twine
+wheel
+zest.releaser
