@@ -98,7 +98,7 @@ clean-docs: ##- Remove previously built docs
 
 .PHONY: coverage
 coverage: ##- Check code coverage quickly with default Python
-	coverage run --source ahd_wagtail_theme -m pytest
+	coverage run --source sphinx_ahd_theme -m pytest
 	coverage report -m
 	coverage html
 	$(BROWSER) htmlcov/index.html
@@ -154,13 +154,13 @@ lm: lint-minimal
 lint-minimal: ## Check Python style for minimal standards (alias lm)
 	flake8 *.py  --count --select=E9,F63,F7,F82 --show-source --statistics
 	echo
-	flake8 ahd_wagtail_theme   --count --select=E9,F63,F7,F82 --show-source --statistics
+	flake8 sphinx_ahd_theme   --count --select=E9,F63,F7,F82 --show-source --statistics
 	echo
 	flake8 tests --count --select=E9,F63,F7,F82 --show-source --statistics
 	echo
 	flake8 *.py  --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
 	echo
-	flake8 ahd_wagtail_theme   --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+	flake8 sphinx_ahd_theme   --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
 	echo
 	flake8 tests --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
 	echo
@@ -205,8 +205,8 @@ test-tox: ##- Run tests on every Python version with tox
 
 .PHONY: test-import
 test-import: ## Verify the extension is install and can be imported
-	python3 -c "import ahd_wagtail_theme as m; print(m.__version__)"
-	python3 -c "import ahd_wagtail_theme as m, pprint; pprint.pprint(m.version_info)"
+	python3 -c "import sphinx_ahd_theme as m; print(m.__version__)"
+	python3 -c "import sphinx_ahd_theme as m, pprint; pprint.pprint(m.version_info)"
 
 .PHONY: test-visual-regression
 test-visual-regression: ## Run visual regression tests
