@@ -1,7 +1,7 @@
 {
   "root": true,
-  "extends": ["@ahdcreative/esling-config-ahd"],
-  "env": {"browser": true},
+  "extends": ["@ahdcreative/eslint-config-ahd","prettier"],
+  "env": { "browser": true },
   "globals": {
     "DOCUMENTATION_OPTIONS": "readonly",
     "Search": "readonly"
