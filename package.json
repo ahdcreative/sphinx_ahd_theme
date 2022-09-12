@@ -9,7 +9,7 @@
     "@ahdcreative/eslint-config-ahd": "^1.0.8",
     "autocompleter": "^6.0.3",
     "bootstrap": "^4.4.1",
-    "eslint": "8.22.0",
+    "eslint": "8.23.1",
     "jquery": "^3.5.1",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1"
