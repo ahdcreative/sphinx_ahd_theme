@@ -9,7 +9,7 @@
     "@ahdcreative/stylelint-config-ahd": "1.0.3",
     "babel-loader": "8.2.5",
     "copy-webpack-plugin": "8.1.1",
-    "css-loader": "5.2.7",
+    "css-loader": "6.7.1",
     "file-loader": "6.2.0",
     "mini-css-extract-plugin": "1.6.2",
     "sass": "1.54.9",
