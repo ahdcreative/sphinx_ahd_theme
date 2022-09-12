@@ -11,7 +11,7 @@
     "copy-webpack-plugin": "8.1.1",
     "css-loader": "5.2.7",
     "file-loader": "6.2.0",
-    "mini-css-extract-plugin": "1.6.2",
+    "mini-css-extract-plugin": "2.6.1",
     "sass": "1.54.9",
     "sass-loader": "11.1.1",
     "stylelint": "14.11.0",
