@@ -21,7 +21,7 @@ if (typeof window.T3Docs === "undefined") {
 function updateDarkMode(event, { isInitial = false } = {}) {
   const DARK = "dark";
   const LIGHT = "light";
-  const STORAGE_KEY = "wagtail-theme";
+  const STORAGE_KEY = "ahd-theme";
 
   let currentMode;
   let applyMode;
@@ -114,7 +114,7 @@ makeTablesResponsive();
 document.addEventListener("DOMContentLoaded", () => {
   // Wire up light/dark mode button.
   document
-    .getElementById("wagtail-theme")
+    .getElementById("ahd-theme")
     .addEventListener("click", updateDarkMode);
 
   // Search.
