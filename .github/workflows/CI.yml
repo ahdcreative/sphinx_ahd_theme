@@ -100,7 +100,7 @@ jobs:
           name: static-files
           path: sphinx_ahd_theme/static/dist/
       - run: grep -F -v 'dist' .gitignore > .gitignore.tmp && mv .gitignore.tmp .gitignore
-      - uses: JamesIves/github-pages-deploy-action@4.1.1
+      - uses: JamesIves/github-pages-deploy-action@v4.4.0
         with:
           branch: gh-pages
           folder: .
