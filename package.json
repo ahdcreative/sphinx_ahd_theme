@@ -1,6 +1,7 @@
 {
   "name": "sphinx_ahd_theme",
   "version": "1.0.0",
+  "private": true,
   "description": "theme for sphinx",
   "devDependencies": {
     "@percy/cli": "1.10.2",
