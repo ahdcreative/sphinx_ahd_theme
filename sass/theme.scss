@@ -1,15 +1,15 @@
-// variabili
+// variables
 @import "variables";
 
-//mixins
+// mixins
 @import "mixins";
 
-// dipendenze
+// dependencies
 @import "../node_modules/@fortawesome/fontawesome-free/scss/mixins";
 @import "../node_modules/@fortawesome/fontawesome-free/scss/variables";
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-// componenti
+// components
 @import "component_admotion";
 @import "component_figure";
 @import "component_quotes";
@@ -31,5 +31,5 @@
 @import "layout";
 @import "utilities";
 
-// Dark Mode
+// Dark mode.
 @import "darkmode";

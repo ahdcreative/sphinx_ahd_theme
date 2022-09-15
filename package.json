@@ -25,6 +25,8 @@
     "lint": "npm run lint:js && npm run lint:css"
   },
   "devDependencies": {
+    "@ahdcreative/eslint-config-ahd": "^1.0.8",
+    "@ahdcreative/stylelint-config-ahd": "^1.0.3",
     "webpack-cli": "^4.10.0",
     "@percy/cli": "^1.1.4",
     "babel-loader": "^8.2.2",
@@ -35,7 +37,6 @@
     "sass": "^1.32.8",
     "sass-loader": "^11.0.1",
     "stylelint": "^14.8.2",
-    "webpack": "^5.24.4",
-    "webpack-cli": "^4.5.0"
+    "webpack": "^5.24.4"
   }
 }
