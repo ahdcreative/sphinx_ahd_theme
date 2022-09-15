@@ -1,8 +1,0 @@
-node_modules
-*.min.js
-**/lib/
-public/
-coverage/
-**/vendor/
-docs/_build
-sphinx_ahd_theme/static

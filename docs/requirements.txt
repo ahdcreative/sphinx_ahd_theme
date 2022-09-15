@@ -1,5 +1,0 @@
-# Install dependencies of the theme
--r ../requirements.txt
-
-# Install development version of the theme
--e .
