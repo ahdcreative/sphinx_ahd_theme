@@ -1,4 +1,4 @@
-{%- set url_root = pathto('', 1) -%}
+                                       {%- set url_root = pathto('', 1) -%}
 {%- if url_root == '#' %}{% set url_root = '' %}{% endif -%}
 {%- if not embedded and docstitle %}
     {%- set titlesuffix = " &mdash; "|safe + docstitle|e -%}
@@ -131,7 +131,7 @@
                         <noscript>
                             <p>{{ _('JavaScript is required to toggle light/dark mode.') }}.</p>
                         </noscript>
-                        <button id="ahd-theme" class="btn btn-sm btn-light text-decoration-none" type="button">
+                        <button id="wagtail-theme" class="btn btn-sm btn-light text-decoration-none" type="button">
                             <span class="dark-only"><i class="fas fa-sun"></i> {{ _('Light mode') }}</span>
                             <span class="light-only"><i class="fas fa-moon"></i> {{ _('Dark mode') }}</span>
                         </button>
