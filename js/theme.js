@@ -118,9 +118,9 @@ document.addEventListener("DOMContentLoaded", () => {
     .addEventListener("click", updateDarkMode);
 
   // Search.
-  var searchform = document.getElementById("search-form");
-  var searchinput = document.getElementById("searchinput");
-  if (searchform && searchinput) {
+    const searchform = document.getElementById("search-form");
+    const searchinput = document.getElementById("searchinput");
+    if (searchform && searchinput) {
     autocomplete({
       input: searchinput,
       fetch: (text, update) => {
