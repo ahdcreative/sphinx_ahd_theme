@@ -5,7 +5,7 @@
   "packageRules": [
     {
       "matchDepTypes": ["devDependencies"],
-      "automerge": true,
+      "automerge": false,
       "stabilityDays": 10
     },
     {
