@@ -5,11 +5,13 @@
   "packageRules": [
     {
       "matchDepTypes": ["devDependencies"],
-      "automerge": true
+      "automerge": true,
+      "stabilityDays": 10
     },
     {
       "matchDepTypes": ["peerDependencies"],
-      "rangeStrategy": "widen"
+      "rangeStrategy": "widen",
+      "stabilityDays": 10
     }
   ]
 }
