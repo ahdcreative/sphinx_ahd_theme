@@ -12,7 +12,10 @@
         "devDependencies"
       ],
       "automerge": false,
-      "stabilityDays": 10
+      "stabilityDays": 10,
+      "assignees": [
+          "@ahdcreative/backend"
+        ]
     },
     {
       "matchDepTypes": [
@@ -20,17 +23,6 @@
       ],
       "rangeStrategy": "widen",
       "stabilityDays": 10
-    },
-    {
-      "vulnerabilityAlerts": {
-        "labels": [
-          "security"
-        ],
-        "automerge": true,
-        "assignees": [
-          "@ahdcreative/backend"
-        ]
-      }
     }
   ]
 }
