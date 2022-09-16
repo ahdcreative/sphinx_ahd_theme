@@ -9,7 +9,7 @@
     "babel-loader": "8.2.5",
     "copy-webpack-plugin": "8.1.1",
     "css-loader": "5.2.7",
-    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-prettier": "8.5.0",
     "file-loader": "6.2.0",
     "mini-css-extract-plugin": "1.6.2",
     "sass": "1.54.9",
