@@ -2,7 +2,7 @@
 Usage
 =====
 
-Select the "Sphinx Wagtail theme" in the ``conf.py`` file of a Sphinx project:
+Select the "Sphinx AHD theme" in the ``conf.py`` file of a Sphinx project:
 
 .. code-block:: python
 
