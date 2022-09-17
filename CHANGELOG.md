@@ -1,4 +1,4 @@
-5.3.4 (unreleased)
+5.3.4 (2022-09-17)
 ------------------
 
 - Nothing changed yet.
