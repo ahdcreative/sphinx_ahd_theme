@@ -19,7 +19,7 @@ for the theme.
    html_theme_options = dict(
        project_name = "My Project",
        logo = "img/ahd-logo-new.svg",
-       logo_alt = "Wagtail",
+       logo_alt = "AHDCreative",
        logo_height = 59,
        logo_url = "/",
        logo_width = 45,
