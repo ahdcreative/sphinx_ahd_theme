@@ -1,0 +1,13 @@
+{
+  "extends": "@ahdcreative/stylelint-config-ahd",
+  "rules": {
+    "declaration-no-important": null,
+    "no-descending-specificity": null,
+    "property-disallowed-list": null,
+    "scale-unlimited/declaration-strict-value": null,
+    "scss/at-extend-no-missing-placeholder": null,
+    "selector-max-specificity": "1,6,6",
+    "selector-max-combinators": 5,
+    "selector-class-pattern": null
+  }
+}

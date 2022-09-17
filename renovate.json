@@ -1,0 +1,29 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "github>ahdcreative/renovate-config"
+  ],
+  "ignorePresets": [
+    "github>ahdcreative/renovate-config:schedule"
+  ],
+  "packageRules": [
+    {
+      "matchDepTypes": [
+        "devDependencies"
+      ],
+      "automerge": false,
+      "stabilityDays": 10,
+      "assignees": [
+        "StellaSCR",
+        "DarkArtek"
+      ]
+    },
+    {
+      "matchDepTypes": [
+        "peerDependencies"
+      ],
+      "rangeStrategy": "widen",
+      "stabilityDays": 10
+    }
+  ]
+}

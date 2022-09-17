@@ -1,0 +1,26 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 4
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+tab_width = 4
+
+[{*.har,*.jsb2,*.jsb3,*.json,.babelrc,.eslintrc,.stylelintrc,bowerrc,jest.config, *.yaml,*.yml,*.scss, *.css,*.typoscript,*.tsconfig}]
+indent_size = 2
+
+[*.xlf]
+indent_style = tab
+
+[*.sql]
+indent_style = tab
+indent_size = 2
+
+[{_.htaccess,.htaccess}]
+indent_style = tab
+
+[Makefile]
+indent_style = tab
