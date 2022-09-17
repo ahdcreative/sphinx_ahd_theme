@@ -18,7 +18,7 @@ jobs:
           node-version: "${{ steps.nvm.outputs.NVMRC }}"
       - run: npm install
       - run: npm run build
-      - uses: actions/setup-python@v2
+      - uses: actions/setup-python@v4
         with:
           python-version: 3.7
       - run: pip install wheel
@@ -36,7 +36,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
+      - uses: actions/setup-python@v4
         with:
           python-version: 3.7
       - run: make setup
@@ -51,7 +51,7 @@ jobs:
       PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-python@v2
+      - uses: actions/setup-python@v4
         with:
           python-version: 3.7
       - name: Setup Firefox and geckodriver
@@ -71,7 +71,7 @@ jobs:
         with:
           name: bdist-wheel-package
           path: packages
-      - uses: actions/setup-python@v2
+      - uses: actions/setup-python@v4
         with:
           python-version: 3.7
       - run: pip install sphinx
