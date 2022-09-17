@@ -1,3 +1,5 @@
-# Sphinx AHD Theme Changelog
+5.3.2 (unreleased)
+------------------
 
-All notable changes to this project will be documented in this file.
+- Nothing changed yet.
+
