@@ -23,11 +23,11 @@ jobs:
           python-version: 3.7
       - run: pip install wheel
       - run: python setup.py bdist_wheel
-      - uses: actions/upload-artifact@v1
+      - uses: actions/upload-artifact@v3
         with:
           name: bdist-wheel-package
           path: dist
-      - uses: actions/upload-artifact@v1
+      - uses: actions/upload-artifact@v3
         with:
           name: static-files
           path: sphinx_ahd_theme/static/dist/
