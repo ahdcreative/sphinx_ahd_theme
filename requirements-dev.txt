@@ -1,5 +1,5 @@
 # Install package into itself.
-# -e .
+-e .
 
 # Development tooling
 build
