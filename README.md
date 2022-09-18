@@ -2,7 +2,7 @@
 ## Installation
 
 ```sh
-pip install sphinx-wagtail-theme
+pip install sphinx-ahd-theme
 ```
 
 ## Usage
