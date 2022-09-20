@@ -21,7 +21,7 @@ if (typeof window.T3Docs === "undefined") {
 function updateDarkMode(event, { isInitial = false } = {}) {
   const DARK = "dark";
   const LIGHT = "light";
-  const STORAGE_KEY = "ahd-theme";
+  const STORAGE_KEY = "wagtail-theme";
 
   let currentMode;
   let applyMode;
@@ -118,9 +118,9 @@ document.addEventListener("DOMContentLoaded", () => {
     .addEventListener("click", updateDarkMode);
 
   // Search.
-    const searchform = document.getElementById("search-form");
-    const searchinput = document.getElementById("searchinput");
-    if (searchform && searchinput) {
+  var searchform = document.getElementById("search-form");
+  var searchinput = document.getElementById("searchinput");
+  if (searchform && searchinput) {
     autocomplete({
       input: searchinput,
       fetch: (text, update) => {
