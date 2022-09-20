@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - theme-docs
+      - main
   pull_request:
 
 jobs:
