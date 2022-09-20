@@ -1,4 +1,4 @@
-# [Sphinx AHD theme](https://sphinx-ahd-theme.netlify.app/)
+# [Sphinx AHD theme](https://sphinx.ahd-creative.agency/)
 ## Installation
 
 ```sh
