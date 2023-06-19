@@ -4,7 +4,7 @@
   "private": true,
   "description": "theme for sphinx",
   "devDependencies": {
-    "@ahdcreative/stylelint-config-ahd": "1.0.3",
+    "@ahdcreative/stylelint-config-ahd": "1.0.4",
     "@percy/cli": "1.10.2",
     "babel-loader": "8.2.5",
     "copy-webpack-plugin": "8.1.1",
