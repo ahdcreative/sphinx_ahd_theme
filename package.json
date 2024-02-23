@@ -23,7 +23,7 @@
     "@fortawesome/fontawesome-free": "^5.13.0",
     "autocompleter": "6.1.3",
     "bootstrap": "4.6.2",
-    "eslint": "8.22.0",
+    "eslint": "8.57.0",
     "jquery": "3.6.1"
   },
   "repository": {
