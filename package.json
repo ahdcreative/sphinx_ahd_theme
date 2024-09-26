@@ -6,7 +6,7 @@
   "devDependencies": {
     "@ahdcreative/stylelint-config-ahd": "1.0.3",
     "@percy/cli": "1.10.2",
-    "babel-loader": "8.2.5",
+    "babel-loader": "8.4.1",
     "copy-webpack-plugin": "8.1.1",
     "css-loader": "5.2.7",
     "eslint-config-prettier": "8.5.0",
